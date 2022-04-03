@@ -13,3 +13,9 @@ where:
 * __wmode__: wmode, e.g. transparent (optional).
 
 For more information about the above attributes, see [this Adobe support page](https://helpx.adobe.com/flash/kb/flash-object-embed-tag-attributes.html).
+
+## Summary of Changes
+I've made the following changes to the original source:
+* Besides its main function, the original version inserted a banner ad. I've removed this "feature."
+* Ruffle is now loaded from an [auto-updating CDN](https://unpkg.com/browse/@ruffle-rs/ruffle/). No need to manually update it anymore.
+* The plugin now adds a convenient link to its Settings page onto the WordPress Plugins management page.
