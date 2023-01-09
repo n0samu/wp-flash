@@ -14,6 +14,10 @@ where:
 
 For more information about the above attributes, see [this Adobe support page](https://helpx.adobe.com/flash/kb/flash-object-embed-tag-attributes.html).
 
+Here is an example: 
+
+`[swf:https://example.com/flash/example.swf 640 480]`
+
 ## Summary of Changes
 I've made the following changes to the original source:
 * Ruffle is now loaded from an [auto-updating CDN](https://unpkg.com/browse/@ruffle-rs/ruffle/). No need to manually update it anymore.
